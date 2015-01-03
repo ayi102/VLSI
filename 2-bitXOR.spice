@@ -1,0 +1,35 @@
+* SPICE3 file created from 2-bitXOR.ext - technology: scmos
+
+M1000 a_11_19# a_n4_n3# Y Vdd pfet w=4u l=2u
++ ad=48p pd=40u as=40p ps=36u 
+M1001 VDD A a_11_19# Vdd pfet w=4u l=2u
++ ad=64p pd=56u as=0p ps=0u 
+M1002 a_11_19# B VDD Vdd pfet w=4u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1003 Y a_33_n17# a_11_19# Vdd pfet w=4u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1004 a_n4_n3# A VDD Vdd pfet w=4u l=2u
++ ad=20p pd=18u as=0p ps=0u 
+M1005 a_n4_n3# A GND Gnd nfet w=4u l=2u
++ ad=20p pd=18u as=64p ps=56u 
+M1006 VDD B a_33_n17# Vdd pfet w=4u l=2u
++ ad=0p pd=0u as=20p ps=18u 
+M1007 GND B a_33_n17# Gnd nfet w=4u l=2u
++ ad=0p pd=0u as=20p ps=18u 
+M1008 Y a_n4_n3# a_4_n15# Gnd nfet w=4u l=2u
++ ad=24p pd=20u as=40p ps=36u 
+M1009 a_19_n15# A Y Gnd nfet w=4u l=2u
++ ad=24p pd=20u as=0p ps=0u 
+M1010 GND B a_19_n15# Gnd nfet w=4u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1011 a_4_n15# a_33_n17# GND Gnd nfet w=4u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+C0 a_4_n15# gnd! 4.2fF
+C1 GND gnd! 19.0fF
+C2 VDD gnd! 13.0fF
+C3 a_11_19# gnd! 4.5fF
+C4 Y gnd! 9.6fF
+C5 a_33_n17# gnd! 14.3fF
+C6 B gnd! 24.1fF
+C7 a_n4_n3# gnd! 14.1fF
+C8 A gnd! 23.8fF

@@ -1,0 +1,15 @@
+* SPICE3 file created from 2-bitNAND.ext - technology: scmos
+
+M1000 VDD A Y Vdd pfet w=4u l=2u
++ ad=52p pd=34u as=44p ps=38u 
+M1001 Y B VDD Vdd pfet w=4u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1002 a_0_n24# A Y Gnd nfet w=4u l=2u
++ ad=52p pd=34u as=24p ps=20u 
+M1003 GND B a_0_n24# Gnd nfet w=4u l=2u
++ ad=20p pd=18u as=0p ps=0u 
+C0 GND gnd! 7.3fF
+C1 VDD gnd! 5.5fF
+C2 Y gnd! 8.3fF
+C3 B gnd! 8.7fF
+C4 A gnd! 8.7fF

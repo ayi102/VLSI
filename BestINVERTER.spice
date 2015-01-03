@@ -1,0 +1,10 @@
+* SPICE3 file created from BestINVERTER.ext - technology: scmos
+
+M1000 Y A VDD Vdd pfet w=4u l=2u
++ ad=20p pd=18u as=20p ps=18u 
+M1001 Y A GND Gnd nfet w=4u l=2u
++ ad=20p pd=18u as=20p ps=18u 
+C0 GND gnd! 2.8fF
+C1 Y gnd! 2.3fF
+C2 VDD gnd! 2.8fF
+C3 A gnd! 6.8fF

@@ -1,0 +1,15 @@
+* SPICE3 file created from /home/psblnx01/ayi102/2-bitNOR.ext - technology: scmos
+
+M1000 a_2_0# A VDD Vdd pfet w=4u l=2u
++ ad=36p pd=26u as=20p ps=18u 
+M1001 Y B a_2_0# Vdd pfet w=4u l=2u
++ ad=20p pd=18u as=0p ps=0u 
+M1002 GND A Y Gnd nfet w=4u l=2u
++ ad=36p pd=26u as=40p ps=36u 
+M1003 Y B GND Gnd nfet w=4u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+C0 GND gnd! 2.8fF
+C1 Y gnd! 8.1fF
+C2 VDD gnd! 2.4fF
+C3 B gnd! 9.9fF
+C4 A gnd! 9.9fF

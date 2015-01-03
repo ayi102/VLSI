@@ -1,0 +1,25 @@
+* SPICE3 file created from /home/psblnx01/ayi102/3-bitOR.ext - technology: scmos
+
+M1000 a_7_0# A VDD Vdd pfet w=4u l=2u
++ ad=36p pd=26u as=52p ps=42u 
+M1001 a_18_0# B a_7_0# Vdd pfet w=4u l=2u
++ ad=20p pd=18u as=0p ps=0u 
+M1002 a_7_n34# C a_18_0# Vdd pfet w=4u l=2u
++ ad=20p pd=18u as=0p ps=0u 
+M1003 Y a_7_n34# VDD Vdd pfet w=4u l=2u
++ ad=20p pd=18u as=0p ps=0u 
+M1004 a_7_n34# A GND Gnd nfet w=4u l=2u
++ ad=52p pd=42u as=76p ps=62u 
+M1005 GND B a_7_n34# Gnd nfet w=4u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1006 a_7_n34# C GND Gnd nfet w=4u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1007 Y a_7_n34# GND Gnd nfet w=4u l=2u
++ ad=20p pd=18u as=0p ps=0u 
+C0 GND gnd! 9.4fF
+C1 Y gnd! 5.6fF
+C2 VDD gnd! 9.8fF
+C3 a_7_n34# gnd! 19.2fF
+C4 C gnd! 11.1fF
+C5 B gnd! 13.7fF
+C6 A gnd! 11.1fF
